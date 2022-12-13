@@ -3,3 +3,31 @@ body{
     color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+#y{
+    text-align: center;
+    margin-bottom: 3%;
+
+}
+
+
+
+#imagen{
+    margin-top: 20%;
+        margin: auto;
+        display: block;
+        transition: transform .2s;
+        border: 2px outset purple;
+        border-radius: 45px;
+
+}
+#imagen:hover{
+    transform: scale(1.2);
+}
+
+#u{
+    margin-top: 3%;
+    color: black;
+    text-align: center;
+}
+
