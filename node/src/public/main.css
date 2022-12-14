@@ -1,22 +1,34 @@
-body {
-  background-color: #ebe6e6 !important;
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#imagen2 {
+  margin: auto;
+  display: block;
+  border: 2px outset #002d2b;
+  border-radius: 45px;
+
 }
 
 /*pagina inicio*/
+
 .caja {
   margin: 0 10%;
 }
 
 #T_articulo {
-  margin-bottom: 0.5%;
+  margin-bottom: 1.5%;
+  margin-top: 4%;
 }
 
 #imagen {
-  margin-top: 20%;
   margin: auto;
   display: block;
   transition: transform .2s;
-  border: 2px outset purple;
+  border: 2px outset #002d2b;
   border-radius: 45px;
 
 }
@@ -28,7 +40,10 @@ body {
 #Titulo {
   margin-top: 2.5%;
   color: black;
-  text-align: center;
+}
+.espacio{
+  
+  margin-bottom: 3%;
 }
 
 /*pagina login*/
@@ -106,6 +121,59 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+/*Registro*/
+
+
+.container
+{
+    height: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50% !important;
+}
+
+
+section
+{
+    padding: 15px;
+}
+
+section h3
+{
+    font-weight: bold;
+}
+.separator
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.textInput
+{
+    width: 320px;
+    height: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background: rgb(209, 209, 255);
+    font-size: 16px;
+}
+
+.bRegistro
+{
+    width: 90%;
+    background: #1f53c5;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 18px;
+}
+
+
+
+
 
 /*Footer*/
 .bd-placeholder-img {
